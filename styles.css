@@ -1,0 +1,30 @@
+html {
+    background-color:lightpink;
+}
+
+body{
+    margin: 0;
+
+}
+
+.site-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background-color:cornflowerblue;
+
+}
+
+.site-link {
+    margin:0 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: darkblue;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.site-link:hover {
+    background-color: lightblue;
+    color: cornflowerblue;
+}

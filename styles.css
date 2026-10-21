@@ -1,5 +1,6 @@
 html {
-    background-color:lightpink;
+    background-color:rgb(252, 226, 230);
+    font-family: cantarell, sans-serif;
 }
 
 body{
@@ -7,24 +8,53 @@ body{
 
 }
 
-.site-links {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    background-color:cornflowerblue;
+.header{
+    background-color:rgb(199, 235, 248);
+    padding: 20px;
+}
 
+.sidebar{
+    background-color:cornflowerblue;
+    flex: 0 0 200px;
+    padding: 20px;
+}
+
+.site-main{
+    background-color:rgb(160, 160, 243);
+    padding: 20px;
+}
+
+.footer{
+    background-color:rgb(243, 194, 255);
+    padding: 20px;
+ 
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color:rgb(255, 250, 253);
+}
+
+.two-col{
+    display: flex;
+    gap: 10px;
+    margin:10px 0;
+
+}
+
+.site-links{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
 
 .site-link {
-    margin:0 10px;
-    padding: 10px;
     text-decoration: none;
-    color: darkblue;
-    display: inline-block;
-    border-radius: 10px;
+   
 }
 
 .site-link:hover {
-    background-color: lightblue;
-    color: cornflowerblue;
+    text-decoration: underline;
 }
